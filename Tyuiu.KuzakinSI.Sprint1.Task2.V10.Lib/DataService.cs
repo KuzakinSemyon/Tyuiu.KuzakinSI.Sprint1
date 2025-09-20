@@ -6,7 +6,7 @@ namespace Tyuiu.KuzakinSI.Sprint1.Task2.V10.Lib
     {
         public double ConvertMetreToInchs(int meters)
         {
-            return Math.Round(meters * 39.370079, 3);
+            return Math.Round(meters * 39.3701, 3);
         }
     }
 }
