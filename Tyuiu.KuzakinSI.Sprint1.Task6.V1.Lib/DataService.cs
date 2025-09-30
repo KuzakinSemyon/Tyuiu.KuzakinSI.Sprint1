@@ -14,7 +14,7 @@ namespace Tyuiu.KuzakinSI.Sprint1.Task6.V1.Lib
             char c = value[0];
             int code = c;
 
-            return $"Символ: {c} Код: {code}";
+            return $"{code}";
         }
     }
 }

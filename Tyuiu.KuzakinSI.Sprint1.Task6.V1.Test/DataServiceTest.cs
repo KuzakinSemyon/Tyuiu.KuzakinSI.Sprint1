@@ -9,7 +9,7 @@ namespace Tyuiu.KuzakinSI.Sprint1.Task6.V1.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            Assert.AreEqual("Символ: 1 Код: 49", ds.SymbolCode("1"));
+            Assert.AreEqual("49", ds.SymbolCode("1"));
         }
     }
 }

@@ -40,5 +40,5 @@ while (true)
         Console.WriteLine("Введите ровно один символ.");
         continue;
     }
-    Console.WriteLine(ds.SymbolCode(input[0].ToString()));
+    Console.WriteLine($"Символ: {input[0]} Код: {ds.SymbolCode(input[0].ToString())}");
 }
